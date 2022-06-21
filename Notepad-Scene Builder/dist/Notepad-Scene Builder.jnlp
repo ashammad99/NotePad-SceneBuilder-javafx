@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Notepad-Scene Builder.jnlp">
+  <information>
+    <title>Notepad-Scene Builder</title>
+    <vendor>Ahmed Hammad</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Notepad-Scene_Builder.jar" size="4451" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Notepad-Scene Builder" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="notepad.Notepad"  name="Notepad-Scene Builder" />
+  <update check="always"/>
+</jnlp>
